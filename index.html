@@ -1,157 +1,236 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Student Eats PRP37XS Entrepreneurial Work-Integrated Learning portfolio at CPUT.">
-  <title>Student Eats | WIL Portfolio</title>
+  <title>Student Eats | eWIL Portfolio</title>
   <style>
     :root {
-      --navy: #10243a;
-      --blue: #2563a6;
-      --light: #f3f6fa;
+      --navy: #102b4e;
+      --blue: #2463a8;
+      --pale-blue: #eaf2fb;
+      --background: #f3f6fa;
       --white: #ffffff;
-      --text: #263445;
-      --muted: #64748b;
+      --text: #253449;
+      --muted: #5d6b7c;
+      --border: #d5e0ee;
     }
 
-    * { box-sizing: border-box; }
+    * {
+      box-sizing: border-box;
+    }
 
     body {
       margin: 0;
       font-family: Arial, Helvetica, sans-serif;
+      background: var(--background);
       color: var(--text);
-      background: var(--light);
-      line-height: 1.6;
+      line-height: 1.65;
     }
 
     header {
       background: var(--navy);
       color: var(--white);
-      padding: 48px 20px;
-      text-align: center;
+      padding: 44px 24px;
+    }
+
+    .container {
+      max-width: 1160px;
+      width: calc(100% - 36px);
+      margin: 0 auto;
     }
 
     header h1 {
       margin: 0 0 8px;
-      font-size: clamp(2rem, 5vw, 3.2rem);
+      font-size: clamp(2rem, 5vw, 3rem);
+      line-height: 1.2;
     }
 
-    header p { margin: 6px 0; }
+    header p {
+      margin: 8px 0;
+      color: #e3edf9;
+    }
+
+    .tag {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 5px 12px;
+      border: 1px solid #8caed5;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
 
     main {
-      max-width: 1000px;
-      margin: 32px auto;
-      padding: 0 20px;
+      padding: 28px 0 48px;
     }
 
     section {
+      margin-bottom: 24px;
+      padding: 26px;
       background: var(--white);
-      padding: 24px;
-      margin-bottom: 20px;
-      border-radius: 12px;
-      box-shadow: 0 3px 12px #10243a12;
+      border-radius: 14px;
+      box-shadow: 0 4px 16px rgba(16, 43, 78, 0.06);
     }
 
-    h2 { color: var(--navy); margin-top: 0; }
+    h2 {
+      margin-top: 0;
+      color: var(--navy);
+      font-size: 1.55rem;
+    }
 
-    .links {
+    h3 {
+      margin-top: 0;
+      color: var(--navy);
+      font-size: 1.08rem;
+    }
+
+    .grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 12px;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 14px;
     }
 
-    .links a {
+    .card {
       display: block;
-      border: 1px solid #d7e1ed;
-      border-radius: 8px;
-      padding: 15px;
+      min-height: 70px;
+      padding: 17px 18px;
+      background: var(--white);
+      border: 1px solid var(--border);
+      border-radius: 10px;
       color: var(--blue);
+      font-weight: 700;
       text-decoration: none;
-      font-weight: bold;
       overflow-wrap: anywhere;
+      transition: background 0.15s ease, border-color 0.15s ease;
     }
 
-    .links a:hover {
-      background: #edf4fc;
+    .card:hover,
+    .card:focus {
+      background: var(--pale-blue);
+      border-color: var(--blue);
       text-decoration: underline;
     }
 
+    .intro {
+      font-size: 1.04rem;
+    }
+
     .note {
-      border-left: 4px solid var(--blue);
+      margin-top: 20px;
       padding-left: 14px;
+      border-left: 4px solid var(--blue);
       color: var(--muted);
     }
 
-    footer {
-      text-align: center;
-      padding: 24px;
+    .small {
       color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    footer {
+      padding: 22px;
+      background: var(--navy);
+      color: #e3edf9;
+      text-align: center;
+    }
+
+    footer a {
+      color: #ffffff;
+    }
+
+    @media (max-width: 600px) {
+      header {
+        padding: 32px 18px;
+      }
+
+      section {
+        padding: 20px;
+      }
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Student Eats</h1>
-    <p>Entrepreneurial Work-Integrated Learning Portfolio</p>
-    <p>PRP37XS · Cape Peninsula University of Technology</p>
+    <div class="container">
+      <h1>Student Eats</h1>
+      <p><strong>Entrepreneurial Work-Integrated Learning (eWIL)</strong></p>
+      <p>PRP37XS — Project Presentation III | Cape Peninsula University of Technology</p>
+      <span class="tag">Project Portfolio &amp; Evidence</span>
+    </div>
   </header>
 
-  <main>
+  <main class="container">
     <section>
-      <h2>About the Project</h2>
-      <p>
+      <h2>Project Overview</h2>
+      <p class="intro">
         Student Eats is a student-focused digital marketplace concept designed
-        to connect student food vendors with students looking for affordable
-        meals. The project explores meal discovery, food listings and an
-        organised ordering experience.
+        to connect student food vendors with students looking for affordable meals.
+        The project brings together multimedia design, user experience, web
+        development, Agile project coordination and project documentation.
       </p>
       <p>
-        This portfolio presents the team's Agile documentation, project
-        planning, graduate attribute reflection and supporting evidence.
+        This portfolio presents the project's supporting documents, planning
+        evidence and reflection on the CPUT graduate attributes.
       </p>
     </section>
 
     <section>
       <h2>eWIL Assessment Components</h2>
-      <div class="links">
-        <a href="README.md">Project Overview and Submission Guide</a>
-        <a href="Agile_User_Stories_and_Backlogs.md">Agile User Stories and Backlogs</a>
-        <a href="Graduate_Attributes_Reflection.md">Graduate Attributes Reflection</a>
+      <div class="grid">
+        <a class="card" href="README.md">Project Overview and Submission Guide</a>
+        <a class="card" href="Agile_User_Stories_and_Backlogs.md">Agile User Stories and Backlogs</a>
+        <a class="card" href="Graduate_Attributes_Reflection.md">Graduate Attributes Reflection</a>
       </div>
     </section>
 
     <section>
       <h2>Project Documents</h2>
-      <div class="links">
-        <a href="00_Agile_Team_Charter_.pdf">Agile Team Charter</a>
-        <a href="Agile_Logbook_21-23_July_2026.docx">Agile Logbook — July 2026</a>
-        <a href="Agile_Logbook_28-30_July_2026.docx">Agile Logbook — July 2026</a>
-        <a href="Agile_Logbook_04-06_August_2026.docx">Agile Logbook — August 2026</a>
-        <a href="Student_Eats_Trello_Export_.json">Trello Export (JSON)</a>
-        <a href="Student_Eats_Architecture_SOURCE.pdf">Student Eats Architecture (PDF)</a>
+      <div class="grid">
+        <a class="card" href="Agile_Team_Charter.pdf">Agile Team Charter (PDF)</a>
+        <a class="card" href="Agile_Logbook_21-23_July_2026.docx">Agile Logbook — July 2026 (21–24 July)</a>
+        <a class="card" href="Agile_Logbook_28-30_July_2026.docx">Agile Logbook — July 2026 (28–31 July)</a>
+        <a class="card" href="Agile_Logbook_04-06_August_2026.docx">Agile Logbook — August 2026 (4–7 August)</a>
+        <a class="card" href="Student_Eats_Trello_Export.json">Trello Export (JSON)</a>
+        <a class="card" href="Student_Eats_Architecture.pdf">Student Eats Architecture (PDF)</a>
       </div>
       <p class="note">
-        These links must match the exact filenames in the repository. Check
-        the files before submission and make sure the logbook dates and entries
-        reflect the original records.
+        The links above must match the exact filenames in this repository.
+        The logbook dates and entries should be checked against the original
+        records before final submission.
       </p>
     </section>
 
     <section>
       <h2>Graduate Attributes</h2>
       <p>
-        The project reflection considers Ubuntu; Knowing, Technological
-        Capability and Foresight; Resilience and Problem-Solving Capability;
-        and Ethical Capability and Respect.
+        The reflection considers Ubuntu; Knowing, Technological Capability and
+        Foresight; Resilience and Problem-Solving Capability; and Ethical
+        Capability and Respect in the context of Student Eats.
       </p>
+      <a class="card" href="Graduate_Attributes_Reflection.md">Read the Graduate Attributes Reflection</a>
+    </section>
+
+    <section>
+      <h2>Project Evidence</h2>
+      <p>
+        The repository contains the team charter, Agile planning documentation,
+        logbooks, Trello export and architecture document. These materials
+        should be used to support claims about the project's activities and
+        progress.
+      </p>
+      <p class="small">
+        Planned features and incomplete activities should not be described as
+        completed without supporting evidence.
+      </p>
+      <a class="card" href="README.md">Read the complete project guide</a>
     </section>
   </main>
 
   <footer>
-    Student Eats · PRP37XS · CPUT
+    <p>Student Eats | PRP37XS — Project Presentation III</p>
+    <p>Entrepreneurial Work-Integrated Learning Portfolio</p>
+    <p><a href="README.md">Repository guide</a></p>
   </footer>
 </body>
 </html>
-
