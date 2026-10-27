@@ -1,4 +1,4 @@
-# Student Eats — Entrepreneurial Work-Integrated Learning (WIL)
+# Student Eats — Entrepreneurial Work-Integrated Learning (eWIL)
 
 **Module:** PRP37XS — Project Presentation III  
 **Institution:** Cape Peninsula University of Technology (CPUT)  
@@ -7,83 +7,65 @@
 
 ## 1. Project Overview
 
-Student Eats is a digital marketplace concept designed to connect student food vendors with students looking to purchase affordable meals. The project aims to make it easier for students to discover food options, view meal information, and place orders while providing student vendors with a platform to showcase their offerings.
+Student Eats is a digital marketplace concept designed to connect student food vendors with students looking for affordable meals. The project aims to make it easier for students to discover food options, view meal information and place orders, while giving student vendors a platform to showcase their offerings.
 
-The project applies multimedia design, user experience (UX), web development, Agile project coordination, testing, and documentation to an entrepreneurial problem within the student community.
+The project applies multimedia design, user experience (UX), web development, Agile project coordination, testing and documentation to an entrepreneurial problem within the student community.
 
 ## 2. Project Objectives
 
 - Explore the needs of student food vendors and student customers.
 - Design a clear and accessible user experience.
 - Develop website functionality to support meal discovery and ordering.
-- Organise project work using Agile practices, user stories, backlogs, and task tracking.
+- Organise project work using Agile practices, user stories, backlogs and task tracking.
 - Reflect on the graduate attributes developed through the project.
-- Document project decisions, progress, challenges, and evidence.
+- Document project decisions, progress, challenges and supporting evidence.
 
-## 3. WIL Submission Components
-### Agile User Stories and Backlogs
-
-[View User Stories, Product Backlog and Sprint Backlog](Agile_User_Stories_and_Backlogs.md)
-
-### Graduate Attributes Reflection
-
-[View Graduate Attributes Reflection](Graduate_Attributes_Reflection.md)
+## 3. eWIL Assessment Components
 
 ### Agile Team Charter
 
-The team charter documents the project's vision, team roles, working agreements, communication methods, Agile approach, risks, constraints, and definition of done.
+The team charter documents the project's vision, team roles, working agreements, communication methods, Agile approach, risks, constraints and definition of done.
 
-[View the Agile Team Charter](00_Agile_Team_Charter.pdf)
+[View the Agile Team Charter (PDF)](Agile_Team_Charter.pdf)
 
 ### Agile User Stories and Backlogs
 
-The Trello export provides supporting evidence of the project's task organisation, sprint planning, user stories, and progress tracking.
+This document outlines user stories, proposed acceptance criteria, product backlog items and sprint planning for Student Eats.
 
-[View the Trello Export](04_Trello_Export_.json)
+[View Agile User Stories and Backlogs](Agile_User_Stories_and_Backlogs.md)
 
 ### Agile Logbooks
 
-The logbooks document project activities and progress across the recorded dates. The entries should be checked against the original records before final submission to ensure that the dates and activities are preserved accurately.
+The logbooks document project activities and progress across the recorded dates. The entries should remain consistent with the original records, including the Tuesday-to-Friday work.
 
-- [Logbook: 21–23 July 2026](01_Agile_Logbook_Tuesday-Thursday_21-23_July_2026.docx)
-- [Logbook: 28–30 July 2026](02_Agile_Logbook_Tuesday-Thursday_28-30_July_2026.docx)
-- [Logbook: 4–6 August 2026](03_Agile_Logbook_Tuesday-Thursday_04-06_August_2026.docx)
+- [Agile Logbook — July, 21–24 July 2026](Agile_Logbook_21-23_July_2026.docx)
+- [Agile Logbook — July, 28–31 July 2026](Agile_Logbook_28-30_July_2026.docx)
+- [Agile Logbook — August, 4–7 August 2026](Agile_Logbook_04-06_August_2026.docx)
 
-### Graduate Attributes
+### Graduate Attributes Reflection
 
-The project reflection should explain how the team applied the following CPUT graduate attributes, using specific examples and evidence from the project:
+The reflection discusses the relevance of the CPUT graduate attributes to the Student Eats project.
 
-- **Ubuntu:** Collaboration, mutual respect, and consideration for the student community.
-- **Knowing, Technological Capability and Foresight:** Applying ICT knowledge and considering appropriate digital solutions.
-- **Resilience and Problem-Solving Capability:** Responding to challenges, reviewing progress, and improving the product.
-- **Ethical Capability and Respect:** Communicating honestly, respecting users, and handling information responsibly.
+[View Graduate Attributes Reflection](Graduate_Attributes_Reflection.md)
 
-The final reflection should be added to this repository before submission.
+### Trello Evidence
 
-## 4. Technical and Project Evidence
+The Trello export provides supporting evidence of task organisation, sprint planning, user stories and progress tracking.
 
-The repository includes supporting project documentation and an architecture document.
+[View or download the Student Eats Trello export (JSON)](Student_Eats_Trello_Export.json)
 
-[View the Student Eats Architecture Document](05_Student_Eats_Architecture_SOURCE.pdf)
+### Student Eats Architecture
 
-The website and its implemented functionality should be demonstrated using the actual project source, screenshots, or a working deployment where available. Features, testing results, and integrations should only be described as complete when supported by evidence.
+The architecture document provides supporting project design and technical documentation.
 
-## 5. Team Collaboration and Agile Practices
+[View the Student Eats Architecture (PDF)](Student_Eats_Architecture.pdf)
 
-The team charter and Trello board provide evidence of the project's planned Agile approach, responsibilities, task organisation, and development activities. The team should review task statuses and outstanding work so the submitted records accurately reflect the project's progress.
+## 4. Evidence and Integrity
 
-## 6. Submission Checklist
+The portfolio is intended to present project evidence honestly. Proposed features, planned activities and incomplete tasks should not be represented as completed work. Logbook dates and activities should be checked against the original records before final submission.
 
-- [ ] Finalise and verify the Agile Team Charter.
-- [ ] Include the prioritised user stories, product backlog, and sprint backlog.
-- [ ] Verify Agile Logbook dates and entries against the original records.
-- [ ] Complete the Graduate Attributes reflection with project-specific examples.
-- [ ] Add relevant screenshots, design work, and website evidence.
-- [ ] Check document names, links, and repository accessibility.
-- [ ] Publish the portfolio through GitHub Pages if required.
-- [ ] Submit the correct repository or GitHub Pages link through Blackboard, according to the assessment instructions.
+## 5. Published Portfolio
 
----
+[Open the Student Eats eWIL website](https://tshepanggeorgelechaba.github.io/student-eats-wil-portfolio/)
 
-**Project:** Student Eats  
-**Purpose of this repository:** Evidence and documentation for the PRP37XS Entrepreneurial Work-Integrated Learning project.
+This repository and its linked documents provide the supporting evidence for the Student Eats eWIL project. Follow the lecturer's Blackboard submission instructions for the final submission.
