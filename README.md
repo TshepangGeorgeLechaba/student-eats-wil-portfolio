@@ -20,7 +20,14 @@ The project applies multimedia design, user experience (UX), web development, Ag
 - Reflect on the graduate attributes developed through the project.
 - Document project decisions, progress, challenges, and evidence.
 
-## 3. eWIL Submission Components
+## 3. WIL Submission Components
+### Agile User Stories and Backlogs
+
+[View User Stories, Product Backlog and Sprint Backlog](Agile_User_Stories_and_Backlogs.md)
+
+### Graduate Attributes Reflection
+
+[View Graduate Attributes Reflection](Graduate_Attributes_Reflection.md)
 
 ### Agile Team Charter
 
